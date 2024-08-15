@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('bg.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.calculator-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+form {
+    text-align: center;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 120px;
+    z-index: 99;
+}
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.form-scrollable {
+    max-height: 300px;
+    overflow-y: auto;
+}
+.course-inputs{
+margin-bottom:20px;
+}
+.course-input select,
+.course-input input[type="number"] {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #45a049;
+}
+#result {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+#calculate-cgpa {
+    padding: 10px 20px;
+    margin-top:10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+#calculate-cgpa:hover {
+    background-color: #005f6b;
+}
